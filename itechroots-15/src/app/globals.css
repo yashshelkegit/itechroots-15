@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'danger';
+  src: url('./fonts/danger2.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: sans-serif;
+}

@@ -1,0 +1,53 @@
+.page-thunder-to-text {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-thunder-to-text canvas {
+    display: block;
+}
+
+.page-thunder-to-text input {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    display: block;
+    outline: none;
+    background-color: rgba(38, 50, 56, 0.2);
+    color: #ffffff;
+    border: none;
+    width: 50%;
+    min-width: 500px;
+    max-width: 100%;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.page-thunder-to-text input:hover,
+.page-thunder-to-text input:focus {
+    /* border: 3px solid rgb(38, 50, 56); */
+    color: aqua;
+}
+
+.page-thunder-to-text input::placeholder {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.cursed-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #000;
+    z-index: -1;
+    /* font-family: 'danger'; */
+}
